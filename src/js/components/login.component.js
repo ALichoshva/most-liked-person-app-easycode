@@ -27,7 +27,9 @@ export class LoginComponent {
                         <input type="email" class="form-control form-control-sm" id="email" placeholder="name@example.com" required data-pattern="^\S+@[a-z]+\.[a-z]+$">
                         <input type="password" class="form-control form-control-sm mt-3" id="password" placeholder="password" required data-pattern="\S+">
                         <div class="d-flex mt-5">
-                            <button type="submit" class="btn btn-primary btn-sm">Login</button>
+                            <button style="margin-right: 20px" type="submit" class="btn btn-primary btn-sm">Login</button>
+                            <span style="margin-right: 20px; padding-top: 2px">or</span>
+                            <a style="padding-top: 2px" href="/#/signup">SignUp</a>
                         </div>
                     </div>
                 </form>

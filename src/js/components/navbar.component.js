@@ -28,10 +28,6 @@ export class NavbarComponent {
                 href="/#/winners">Winners</a></li>
                 <li><a class="nav-link" 
                 href="/#/news">News</a></li>
-                <li><a class="nav-link" 
-                href="/#/signup">SignUp</a></li>
-                <li><a class="nav-link" 
-                href="/#/login">Login</a></li>
             </ul>
             <button class="btn btn-primary logout-btn">Logout</button>
         </nav>
@@ -50,12 +46,10 @@ export class NavbarComponent {
     }
 
     afterRender() {
-        // if(!this._authService.token) return
-        
         document.querySelector('.logout-btn')
             .addEventListener('click', (e) => {
-                this._authService.logout()
-                    .then(() => this._routing.navigate('/login'))
-            })
+            this._authService.logout()
+                .then(() => this._routing.navigate('/login'))
+        })
     }
 }
