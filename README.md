@@ -1,4 +1,4 @@
-<h2><a href="https://most-liked-person-easycode.herokuapp.com">Link to the News App Agregator</a></h2>
+<h2><a href="https://most-liked-person-easycode.herokuapp.com">Link to the App</a></h2>
 
 <h4>Description</h4>
 This project may be called as the Angular style app, but write on the vanilla javascript.
